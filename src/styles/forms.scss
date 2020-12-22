@@ -1,0 +1,34 @@
+@import "./color.scss";
+.iot-{
+    &field{
+        width: 100%;
+    }
+    &input{
+        outline: none;
+        border: none;
+        padding: 20px;
+        font-size: 1.5rem;
+        border-radius: 100px;
+        margin-bottom: 10px;
+        &-color--{
+            &default{
+                background-color: #F6F6F6;
+            }
+        }
+    }
+    &button{
+        background-color: $primary-color;
+        outline: none;
+        border: none;
+        font-size: 2rem;
+        color: #fff;
+        border-radius: 100px;
+        width: 100%;
+        padding: 10px;
+        cursor: pointer;
+        transition: all ease .2s;
+        &:active{
+            transform: scale(.97);
+        }
+    }
+}

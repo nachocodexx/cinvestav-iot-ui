@@ -1,0 +1,17 @@
+$primary-color:#FF3051;
+.bg-{
+    &color-{
+        &primary{
+            background-color: $primary-color;
+        }
+    }
+}
+
+.color-{
+    &primary{
+        color: $primary-color;
+    }
+    &grey{
+        color: #DBDBDB;
+    }
+}
